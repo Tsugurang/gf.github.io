@@ -2143,6 +2143,9 @@ a {
 	#backgroundtexttwo {
 			font-size:9em;
 	}
+	.plus {
+		top: 10%;
+	}
 }
 @media screen and (pointer:coarse) and (max-width:1024px) {
 	html {
@@ -2554,6 +2557,9 @@ a {
 	}
 	#photo6 {
 			width: 87.5%;
+	}
+	.plus {
+			right: 6.25%;
 	}
 }
 /** 바뀌는 구간 **/
