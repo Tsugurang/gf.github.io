@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<!-- HTML5 문서임을 알려줌 -->
+<html>
+<head>
+<meta charset="utf-8">
+<!-- 한글이 정상적으로 보이도록 설정 -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1">
+<!-- 모바일에서 콘텐츠 크기 최적화 -->
+<link rel="Website Icon" type="png" href="image/kar.png">
+<link rel="stylesheet" type="text/css" href="index.css">
+<title>새소식</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+<script src="js/index.js" defer></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+<script src="js/wow.js"></script>
+<script>
+              new WOW().init();
+              </script>
+<script src="js/clicktwo.js" defer></script>
+</head>
+<style>
+    .ul {
+    list-style:none;
+    }
+    .li {
+    float: left;
+    padding: 0 10px;
+    }
+    .activetwo {
+		background-color: #FEB500;
+		color: black;
+    }
+</style>
+<body>
+<div id="alltwo">
+	<div class="first">
+		<nav class="container">
+		<nav class="item_1">
+		<nav class="box1">
+		<img id="sun" src="image/sunborn.png">
+		</nav>
+		</nav>
+		<nav class="item_2">
+		<nav class="box2">
+		<a href="main.html"><img id="girls" src="image/logo.png"></a>
+		</nav>
+		</nav>
+		<nav class="item_3">
+		<ul class="mainmenubar_1">
+			<li class="li_1">
+			<a href="TOP">TOP</a>
+			</li>
+			<li class="li_1">
+			<a href="news.html">NEWS</a>
+			</li>
+			<li class="li_1">
+			<a href="SYSTEM">SYSTEM</a>
+			<ul class="depth_1">
+				<li><a href="book">인형 도감</a></li>
+				<li><a href="illustratedbook">인형 코스튬</a></li>
+			</ul>
+			</li>
+			<li class="li_1">
+			<a href="GALLERY">GALLERY</a>
+			<ul class="depth_1">
+				<li><a href="photo">갤러리</a></li>
+				<li><a href="comics">코믹스</a></li>
+				<li><a href="fanarts">팬 아트</a></li>
+			</ul>
+			</li>
+			<li class="li_1">
+			<a href="COMMUNITY">COMMUNITY</a>
+			<ul class="depth_1">
+				<li><a href="cafe">카페</a></li>
+				<li><a href="facebook">페이스북</a></li>
+				<li><a href="twitter">트위터</a></li>
+			</ul>
+			</li>
+			<li class="li_1">
+			<a href="DOUJIN">DOUJIN</a>
+			</li>
+		</ul>
+		</nav>
+		<nav class="item_4">
+		<nav class="box3">
+		<img id="language" src="image/language.png">
+		</nav>
+		<nav class="box4">
+		<img id="gamestart" src="image/그룹 1.png">
+		</nav>
+		</nav>
+		<nav class="btn">
+		</a><img src="image/menu.png">
+		</nav>
+		<nav class="item_6">
+		<a href="#" class="box5">
+		<img id="girls" src="image/logo.png">
+		</a>
+		</nav>
+		</nav>
+	</div>
+	<div id="newnewsmainbox">
+		<div id="newnewsbackbox">
+			<img id="newnewsmainimg" src="image/2022winter_squad.png">
+		</div>
+		<div id="newnewsmaintext">
+			 새소식
+		</div>
+	</div>
+	<div id="newnewsbox">
+		<div id="news">
+			<ul class="newsone">
+				<li class="newsbox">
+				<a href="double.html"><img id="newsimgone" src="image/double.png"></a>
+				</li>
+				<li class="newsinfo">
+				<ul class="annewsname">
+					<a href="double.html">월정액 2배 이벤트 예고!</a>
+				</ul>
+				</li>
+			</ul>
+			<ul class="newsone">
+				<li class="newsbox">
+				<a href="flex.html"><img id="newsimgtwo" src="image/11kr.png"></a>
+				</li>
+				<li class="newsinfo">
+				<ul class="annewsname">
+					<a href="flex.html">제 2기 전선협약 시즌 소개</a>
+				</ul>
+				</li>
+			</ul>
+			<ul class="newsone">
+				<li class="newsbox">
+				<a href="nine.html"><img id="newsimgthree" src="image/4kr.jpeg"></a>
+				</li>
+				<li class="newsinfo">
+				<ul class="annewsname">
+					<a href="nine.html">제 9차 국지전 이벤트 개최 예고!</a>
+				</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div id="sbtmtjs">
+	</div>
+	<div id="anteam">
+		<div id="newscont">
+			<div class="newnewscate activetwo" onclick="changePic(1); toggleBorder(this);">
+				<div class="newnewscatetwo">
+					전체
+				</div>
+			</div>
+			<div class="newnewscate" onclick="changePic(2); toggleBorder(this);">
+				<div class="newnewscatetwo">
+					새소식
+				</div>
+			</div>
+			<div class="newnewscate" onclick="changePic(3); toggleBorder(this);">
+				<div class="newnewscatetwo">
+					패치노트
+				</div>
+			</div>
+			<div class="newnewscate" onclick="changePic(4); toggleBorder(this);">
+				<div class="newnewscatetwo">
+					이벤트
+				</div>
+			</div>
+			<div class="newnewscate" onclick="changePic(5); toggleBorder(this);">
+				<div class="newnewscatetwo">
+					E스포츠
+				</div>
+			</div>
+			<div class="newnewscate" onclick="changePic(6); toggleBorder(this);">
+				<div class="newnewscatetwo">
+					공식 방송
+				</div>
+			</div>
+		</div>
+		<div id="photon1">
+			<div id="phototwo">
+				<div id="guncardslot">
+					<li><a href="SLOWSHOCK.html"><img id="guncard" src="image/event/SLOWSHOCK.png"></a></li>
+				</div>
+				<div id="classbox">
+					<li class="eventclass">이벤트</li>
+					<li class="nameclass"><a href="SLOWSHOCK.html">[만성쇼크] 이벤트 PV 공개!</a></li>
+					<li class="dayclass">방금 전</li>
+				</div>
+			</div>
+			<div id="phototwo">
+				<div id="guncardslot">
+					<li><a href="double.html"><img id="guncard" src="image/double.png"></a></li>
+				</div>
+				<div id="classbox">
+					<li class="eventclass">이벤트</li>
+					<li class="nameclass"><a href="double.html">월정액 2배 이벤트 예고!</a></li>
+					<li class="dayclass">1일 전</li>
+				</div>
+			</div>
+			<div id="phototwo">
+				<div id="guncardslot">
+					<li><a href="flex.html"><img id="guncard" src="image/11kr.png"></a></li>
+				</div>
+				<div id="classbox">
+					<li class="newclass">새소식</li>
+					<li class="nameclass"><a href="flex.html">제 3기 전선협약 시즌 소개</a></li>
+					<li class="dayclass">2일 전</li>
+				</div>
+			</div>
+			<div id="phototwo">
+				<div id="guncardslot">
+					<li><a href="nine.html"><img id="guncard" src="image/4kr.jpeg"></a></li>
+				</div>
+				<div id="classbox">
+					<li class="eventclass">이벤트</li>
+					<li class="nameclass"><a href="nine.html">제 9차 국지전 이벤트 개최 예고!</a></li>
+					<li class="dayclass">4일 전</li>
+				</div>
+			</div>
+			<div id="phototwo">
+				<div id="guncardslot">
+					<li><a href="gray.html"><img id="guncard" src="image/new/gray.png"></a></li>
+				</div>
+				<div id="classbox">
+					<li class="newclass">새소식</li>
+					<li class="nameclass"><a href="gray.html">“회색지대 탐사” 보상 추가</a></li>
+					<li class="dayclass">5일 전</li>
+				</div>
+			</div>
+			<div id="phototwo">
+				<div id="guncardslot">
+					<li><a href="sana.html"><img id="guncard" src="image/new/sana.png"></a></li>
+				</div>
+				<div id="classbox">
+					<li class="newclass">새소식</li>
+					<li class="nameclass"><a href="sana.html">신규 3성 혼합세력유닛 “사나” 소개</a></li>
+					<li class="dayclass">일주일 전</li>
+				</div>
+			</div>
+			<div id="phototwo">
+				<div id="guncardslot">
+					<li><a href="note.html"><img id="guncard" src="image/note/note.png"></a></li>
+				</div>
+				<div id="classbox">
+					<li class="noteclass">패치노트</li>
+					<li class="nameclass"><a href="note.html">3.0200 버전 클라이언트 일부 개선 내용 안내</a></li>
+					<li class="dayclass">6월 2일</li>
+				</div>
+			</div>
+		</div>
+		<div id="photon2">
+			<div id="phototwo">
+				<div id="guncardslot">
+					<li><a href="flex.html"><img id="guncard" src="image/11kr.png"></a></li>
+				</div>
+				<div id="classbox">
+					<li class="newclass">새소식</li>
+					<li class="nameclass"><a href="flex.html">제 3기 전선협약 시즌 소개</a></li>
+					<li class="dayclass">2일 전</li>
+				</div>
+			</div>
+			<div id="phototwo">
+				<div id="guncardslot">
+					<li><a href="gray.html"><img id="guncard" src="image/new/gray.png"></a></li>
+				</div>
+				<div id="classbox">
+					<li class="newclass">새소식</li>
+					<li class="nameclass"><a href="gray.html">“회색지대 탐사” 보상 추가</a></li>
+					<li class="dayclass">5일 전</li>
+				</div>
+			</div>
+			<div id="phototwo">
+				<div id="guncardslot">
+					<li><a href="sana.html"><img id="guncard" src="image/new/sana.png"></a></li>
+				</div>
+				<div id="classbox">
+					<li class="newclass">새소식</li>
+					<li class="nameclass"><a href="sana.html">신규 3성 혼합세력유닛 “사나” 소개</a></li>
+					<li class="dayclass">일주일 전</li>
+				</div>
+			</div>
+		</div>
+		<div id="photon3">
+			<div id="phototwo">
+				<div id="guncardslot">
+					<li><a href="note.html"><img id="guncard" src="image/note/note.png"></a></li>
+				</div>
+				<div id="classbox">
+					<li class="noteclass">패치노트</li>
+					<li class="nameclass"><a href="note.html">3.0200 버전 클라이언트 일부 개선 내용 안내</a></li>
+					<li class="dayclass">6월 2일</li>
+				</div>
+			</div>
+			<div id="phototwo">
+				<div id="guncardslot">
+					<li><a href="MIRROR STAGE.html"><img id="guncard" src="image/mainimg.jpeg"></a></li>
+				</div>
+				<div id="classbox">
+					<li class="noteclass">패치노트</li>
+					<li class="nameclass"><a href="MIRROR STAGE.html">2021년 상반기 대형 이벤트 "거울단계" 상시 이벤트 추가 안내</a></li>
+					<li class="dayclass">4월 5일</li>
+				</div>
+			</div>
+		</div>
+		<div id="photon4">
+			<div id="phototwo">
+				<div id="guncardslot">
+					<li><a href="SLOWSHOCK.html"><img id="guncard" src="image/event/SLOWSHOCK.png"></a></li>
+				</div>
+				<div id="classbox">
+					<li class="eventclass">이벤트</li>
+					<li class="nameclass"><a href="SLOWSHOCK.html">[만성쇼크] 이벤트 PV 공개!</a></li>
+					<li class="dayclass">방금 전</li>
+				</div>
+			</div>
+			<div id="phototwo">
+				<div id="guncardslot">
+					<li><a href="double.html"><img id="guncard" src="image/double.png"></a></li>
+				</div>
+				<div id="classbox">
+					<li class="eventclass">이벤트</li>
+					<li class="nameclass"><a href="double.html">월정액 2배 이벤트 예고!</a></li>
+					<li class="dayclass">1일 전</li>
+				</div>
+			</div>
+			<div id="phototwo">
+				<div id="guncardslot">
+					<li><a href="nine.html"><img id="guncard" src="image/4kr.jpeg"></a></li>
+				</div>
+				<div id="classbox">
+					<li class="eventclass">이벤트</li>
+					<li class="nameclass"><a href="nine.html">제 9차 국지전 이벤트 개최 예고!</a></li>
+					<li class="dayclass">4일 전</li>
+				</div>
+			</div>
+			<div id="phototwo">
+				<div id="guncardslot">
+					<li><a href="muro.html"><img id="guncard" src="image/event/muro.png"></a></li>
+				</div>
+				<div id="classbox">
+					<li class="eventclass">이벤트</li>
+					<li class="nameclass"><a href="muro.html">2023년 대형 이벤트 “만성쇼크” 특전 이벤트 안내</a></li>
+					<li class="dayclass">5월 1일</li>
+				</div>
+			</div>
+			<div id="phototwo">
+				<div id="guncardslot">
+					<li><a href="zombie.html"><img id="guncard" src="image/event/zombie.png"></a></li>
+				</div>
+				<div id="classbox">
+					<li class="eventclass">이벤트</li>
+					<li class="nameclass"><a href="zombie.html">[소녀전선] X [좀비 랜드 사가 리벤지] 콜라보레이션 커밍 쑨!</a></li>
+					<li class="dayclass">4월 15일</li>
+				</div>
+			</div>
+			<div id="phototwo">
+				<div id="guncardslot">
+					<li><a href="q.html"><img id="guncard" src="image/event/q.png"></a></li>
+				</div>
+				<div id="classbox">
+					<li class="eventclass">이벤트</li>
+					<li class="nameclass"><a href="q.html">2023년 신규 이벤트 “문제상자 가설” 예고</a></li>
+					<li class="dayclass">3월 23일</li>
+				</div>
+			</div>
+		</div>
+		<div id="photon5">
+			<div id="phototwo">
+				<div id="guncardslot">
+					<li><a href="es.html"><img id="guncard" src="image/note/note.png"></a></li>
+				</div>
+				<div id="classbox">
+					<li class="esclass">E스포츠</li>
+					<li class="nameclass"><a href="es.html">소녀전선 e스포츠 아레나 개최!</a></li>
+					<li class="dayclass">22년 1월 10일</li>
+				</div>
+			</div>
+		</div>
+		<div id="photon6">
+			<div id="phototwo">
+				<div id="guncardslot">
+					<li><a href="bro.html"><img id="guncard" src="image/bro/brotwo.png"></a></li>
+				</div>
+				<div id="classbox">
+					<li class="broclass">공식 방송</li>
+					<li class="nameclass"><a href="bro.html">4월 14일 버전 업데이트 방송!</a></li>
+					<li class="dayclass">4월 7일</li>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="gkeksbox">
+		<nav class="gkeks">
+		<nav class="gkekstkwls">
+		<img id="gkeksimg" src="image/footer-logo.png">
+		</nav>
+		<nav class="gkeksqhsans">
+		Business Contact : business@xdg.com <br>
+		 Customer Service : service@xdg.com <br>
+		 ©Shanghai Sunborn Network Technology Co., Ltd. <br>
+		 ©X.D. Global Limited All Rights Reserved. </nav>
+		</nav>
+		<div id="gkeksboxtwo">
+			<nav class="userule">
+			<li class="li_2">
+			<a href="dirrhks" style="color:white">사용약관</a>
+			</li>
+			<li class="li_2">
+			<a href="rodlswjdqh" style="color:white">개인정보 처리방침</a>
+			</li>
+			<li class="li_2">
+			<a href="tkdjqwk" style="color:white">사업자정보확인</a>
+			</li>
+			<li class="li_2">
+			<a href="znzl" style="color:white">쿠키 설정</a>
+			</li>
+			</nav>
+		</div>
+	</div>
+</div>
+</body>
+</html>
