@@ -50,6 +50,9 @@ body {
 .nameclass a:visited,.nameclass a:link {
 	color:white;
 }
+.plus a:visited,.plus a:link {
+	color:#435059;
+}
 ul {
 	list-style:none;
 }
@@ -1735,6 +1738,15 @@ a {
 	left:50%;
 	transform:translateX(-50%);
 	position: relative;
+}
+.plus {
+	color: #435059;
+	font-weight: 600;
+	position: absolute;
+	right: 12.5%;
+	top: 20%;
+	z-index: 10;
+	cursor: pointer;
 }
 /** 뉴스 선택 **/
 #anteam {
