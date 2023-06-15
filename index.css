@@ -2146,6 +2146,13 @@ a {
 	.plus {
 		top: 10%;
 	}
+	#news {
+			-ms-overflow-style: none; /* 인터넷 익스플로러 */
+			scrollbar-width: none; /* 파이어폭스 */
+	}
+	#news::-webkit-scrollbar {
+			display: none;
+	}
 }
 @media screen and (pointer:coarse) and (max-width:1024px) {
 	html {
