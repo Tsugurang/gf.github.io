@@ -538,6 +538,7 @@ a {
 	left:50%;
 	top:50%;
 	transform:translate3d(-50%,-35%,0);
+	width: 100%;
 }
 #maintext {
 	position:absolute;
